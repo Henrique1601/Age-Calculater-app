@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,900;1,400;1,800&display=swap');
+
+body {
+  background-color: hsl(0, 0%, 94%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  max-width: 750px;
+  border-radius: 8% 8% 49% 9% / 8% 8% 25% 8% ;
+  height: 680px;
+}
+
+section{
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+footer {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: auto;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  line-height: 2.5em;
+  color: hsl(259, 100%, 65%);
+  margin: 0 0 0 0;
+  font-size: 32px;
+  font-family:"Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+a {
+  font-family:"Poppins", sans-serif ;
+  color: #000000;
+  padding: 0 3px;
+  font-weight: 600;
+  text-decoration: none;
+  font-style: italic;
+}
+
+a:hover {
+  color:hsl(259, 100%, 65%);
+  border-bottom: 1px solid #000000;
+}
+
+label {
+  font-family:"Poppins", sans-serif;
+  font-weight:400;
+  font-size: 1.2rem;
+  padding: 1px 8px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+}
+
+input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
+  width: 100%;
+  padding: 10px ;
+  font-size: 1rem;
+  font-family:"Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid hsl(259, 100%, 65%);
+  border-radius: 8px;
+  box-sizing: border-box;
+ 
+}
+
+input[type=button], button {
+  width: 100%;
+  background-color: hsl(259, 100%, 65%);
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  padding: 20px 20px;
+  margin: 0 0 1px;
+  border: none;
+  cursor: pointer;
+  background-image: url(./assets/images/icon-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+input[type=button]:hover, button:hover {
+  background-color: hsl(0, 0%, 8%);
+}
+
+
+.container .days span{
+  color: red;
+  list-style: none;
+}
+
+input[type=number]::placeholder{
+  color: red;
+} 

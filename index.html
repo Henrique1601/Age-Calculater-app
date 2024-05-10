@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container">
+    <section class="days">
+      
+      <label for="Day">Day</label>
+      <input class="date" type="number" name="Day" id="Day" min="1" max="31" >
+      <span id="error"></span> 
+      <span id="Dayleap"></span>
+     
+      <label for="Month">Month</label>
+      <input class="date" type="number" name="Month" id="Month" min="1" max="12" >
+      <span id="error2"></span>
+     
+
+      <label for="Year">Year</label>
+      <input class="date" type="number" name="Year" id="Year" min="1900" max="" >
+      <span id="error3"></span>
+    </section>
+  
+<div class="button" >
+  <input type="button" value="" onclick="Calcular()" id="calcButton">
+</div>
+    <section class="resposta">  
+      <h2><span id="Ryears"> -- </span> Years</h2>
+      <h2><span id="Rmonths"> -- </span> Months</h2>
+      <h2><span id="Rdays"> -- </span> Days</h2>
+    </section>
+  </section>
+
+  <footer>  
+     <p> 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Henrique Bezerra dos Santos</a>.
+  </p>
+  </footer>
+
+<script src="./index.js"></script>
+
+</body>
+</html>
